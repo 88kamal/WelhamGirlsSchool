@@ -1,0 +1,180 @@
+/* .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 10px;
+} */
+
+
+.navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.1em;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #808080;
+}
+
+@media only screen and (min-width: 960px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+
+    .dropdown .dropdown-menu {
+        display: none;
+    }
+
+    /* .dropdown:hover .dropdown-toggle::after {
+        border-bottom: 0.3em solid;
+        border-top: 0;
+    } */
+}
+
+@media screen and (max-width: 991px) {
+    .dropdown-toggle.show::after {
+        border-top: 0;
+        border-bottom: 0.3em solid;
+    }
+}
+
+btn:focus,
+a:focus {
+    outline: none;
+}
+
+.navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+@media (min-width: 400px) {
+    .nav-link a {
+        font-size: 23px !important;
+    }
+
+}
+
+
+/* .stick-Navbar{
+    position: sticky;
+    top: 0;
+} */
+
+
+
+.mainHeader {
+    padding: 12px 18px;
+    background: rgb(58, 15, 253);
+    color: #fff;
+    text-align: center;
+}
+
+.main-block {
+    padding: 16px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.fixedTop {
+    width: 100%;
+    padding: 12px 18px;
+    position: fixed;
+    top: 0;
+    background: rgb(251, 4, 235);
+}
+
+.fixedTop+.main-block {
+    padding-top: 102px;
+}
+
+
+
+
+
+
+/* For 1024 Resolution */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .dropdown-menu {
+        background-color: black;
+        color: white;
+        border: 3px;
+        border-top-style: solid;
+        border-top-color: rgb(80, 165, 255);
+        
+    }
+
+    .dropdown-item {
+        color: white;
+
+    }
+
+    .dropdown-item:hover {
+        color: #337ab7;
+        background: none;
+    }
+
+}
+
+/* For 1366 Resolution */
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+    .dropdown-menu {
+        background-color: black;
+        border-style: solid;
+        border: 3px;
+        border-top-style: solid;
+        border-top-color: rgb(80, 165, 255);
+    }
+
+    .dropdown-item {
+        color: white;
+    }
+
+    .dropdown-item:hover {
+        color: #337ab7;
+        background: none;
+    }
+}
+
+@media only screen and (min-width: 1370px) and (max-width: 1605px) {
+    .dropdown-menu {
+        background-color: black;
+        border: 3px;
+        border-top-style: solid;
+        border-top-color: rgb(80, 165, 255);
+        margin-bottom: 12em;
+    }
+
+    .dropdown-item {
+        color: white;
+    }
+
+    .dropdown-item:hover {
+        color: #337ab7;
+        background: none;
+    }
+}
+
+
+/* For 640 Resolution */  
+@media only screen   
+and (min-device-width : 360px)   
+and (max-device-width : 640px) {
+    .dropdown-menu {
+        border: none;
+    }
+    
+}
+.nav-link{
+    font-weight: 500 !important;
+    font-family: 'Montserrat', sans-serif;
+}
+.dropdown-item{
+    font-family: 'Lato',sans-serif;
+}
+.nav-link:hover  {
+        color: #337ab7 !important;
+    }

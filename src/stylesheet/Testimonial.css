@@ -1,0 +1,45 @@
+/** testiomnial section **/
+
+.testimonial-section{
+    position: relative;
+    background: url(/public/images/home/testimonialBackground.jpeg);
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom: 78px;
+  }
+  .testimonial-section:before{
+    position: absolute;
+    content: '';
+    background: #1e1f22;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    opacity: 0.2;
+  }
+  .testimonial-section .item{
+    padding: 0 20px;
+   
+    color: white;
+  }
+  
+  .alice-carousel__dots {
+    margin: -13px 3px 5px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 523px){ 
+  
+    .addmission2{
+  
+   position: relative;
+   bottom: 16em;
+
+ }
+ }

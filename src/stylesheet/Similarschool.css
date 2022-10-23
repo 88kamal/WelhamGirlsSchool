@@ -1,0 +1,39 @@
+.btn1 {
+    background-color: #9595b1;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+
+}
+
+.card {
+
+   border: none !important;
+}
+
+.flexbox {
+    width: 280px;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.main {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+
+
+@media only screen and (max-width: 523px){ 
+  
+    .addmission{
+  
+   position: relative;
+   /* bottom: 2em; */
+
+ }
+ }
