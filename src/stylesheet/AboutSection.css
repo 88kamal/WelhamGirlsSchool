@@ -423,8 +423,8 @@ and (max-device-width : 640px) {
     /* margin-bottom: 20px; */
     /* margin-top: -20px; */
     /* position: relative; */
-    font-size: 40px;
-    font-family: 'sans-serif' 'Roboto';
+    font-size: 30px;
+    /* font-family: 'sans-serif' 'Roboto'; */
     /* line-height: 37px; */
     color: #848484;
     display: block;
