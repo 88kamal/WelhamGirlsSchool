@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 // import { Link } from 'react-router-dom'
 // import FooterSecond from '../../components/FooterSecond'
 import Layout from '../../components/Layout'
 import "./Aboutwelham.css"
 
 function AboutWelham() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <Layout>
             <section className="our-team team-page sec-pad1">

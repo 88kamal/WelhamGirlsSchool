@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import {AiOutlineLeft, AiOutlineRight} from 'react-icons/ai'
 import Layout from '../../components/Layout'
 import FooterSecond from '../../components/FooterSecond'
 
 function OurBlog() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <Layout>
       <section class="page-title">

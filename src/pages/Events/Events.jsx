@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Layout from '../../components/Layout'
 import {AiFillClockCircle} from 'react-icons/ai'
 import {GrLocation} from 'react-icons/gr'
 
 function Events() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <Layout>
       <section class="page-title">

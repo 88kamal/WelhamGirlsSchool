@@ -2,6 +2,7 @@ import React from 'react'
 import '../stylesheet/AddmissionPro.css'
 
 function AddmissionPro() {
+     
     return (
         <div className=" container addmission">
             <div className="center">

@@ -2,6 +2,7 @@ import React from 'react'
 import '../stylesheet/AboutSection.css'
 
 function About() {
+    
     return (
         <section className="about-section">
             <div className="container">

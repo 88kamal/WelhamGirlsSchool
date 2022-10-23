@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Layout from '../../components/Layout'
 
 function HowToRegister() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <Layout>
             <section className="our-team team-page sec-pad1">

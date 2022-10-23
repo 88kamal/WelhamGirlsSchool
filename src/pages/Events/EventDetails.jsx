@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Layout from '../../components/Layout'
 import {FaFacebookF} from 'react-icons/fa'
@@ -7,6 +7,9 @@ import {BsVimeo} from 'react-icons/bs'
 import FooterSecond from '../../components/FooterSecond'
 
 function EventDetails() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <Layout>
       <section class="page-title">

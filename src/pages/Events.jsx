@@ -2,6 +2,7 @@ import React from 'react'
 import '../stylesheet/Events.css'
 
 function Events() {
+      
   return (
     <section className="image-gallery sec-pad">
     <div className="container addmission1">

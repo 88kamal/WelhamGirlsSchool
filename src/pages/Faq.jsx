@@ -1,6 +1,7 @@
 import React from 'react'
 import '../stylesheet/Faq.css'
 function Faq() {
+    
     return (
         <div className=' container faq'>
             <section className="newsletter-section">
