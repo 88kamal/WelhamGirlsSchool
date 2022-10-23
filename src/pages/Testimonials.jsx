@@ -15,7 +15,7 @@ function Testimonials() {
       
 
         <section className="testimonial-section sec-pad centred addmission2" style={{
-            height: '40em'
+            height: '47em'
         }}>
             <div className="container">
                 <div className="testimonial-title white">
