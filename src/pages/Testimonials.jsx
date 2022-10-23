@@ -6,9 +6,9 @@ import '../stylesheet/Testimonial.css'
 const handleDragStart = (e) => e.preventDefault();
 
 const items = [
-    <img  src="images/anmol.png" onDragStart={handleDragStart} role="presentation" />,
-    <img src="images/Madhu.png" onDragStart={handleDragStart} role="presentation" />,
-    <img src="images/Ankita.png" onDragStart={handleDragStart} role="presentation" />,
+    <img  src="images/anmol.png" onDragStart={handleDragStart} role="presentation" alt='img' />,
+    <img src="images/Madhu.png" onDragStart={handleDragStart} role="presentation"  alt='img'/>,
+    <img src="images/Ankita.png" onDragStart={handleDragStart} role="presentation"  alt='img'/>,
 ];
 function Testimonials() {
     return (

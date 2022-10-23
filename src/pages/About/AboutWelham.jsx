@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import FooterSecond from '../../components/FooterSecond'
+// import { Link } from 'react-router-dom'
+// import FooterSecond from '../../components/FooterSecond'
 import Layout from '../../components/Layout'
 import "./Aboutwelham.css"
 

@@ -73,12 +73,12 @@ function News() {
                 <div className="sidebar-catagories sidebar-widget">
                   <div className="sidebar-title">Category</div>
                   <ul className="list">
-                    <li><a href="#" className="active"><p>Art &amp; Crafts</p></a></li>
-                    <li><a href="#"><p>Sports</p></a></li>
-                    <li><a href="#"><p>Science &amp; Tecnologies</p></a></li>
-                    <li><a href="#"><p>Social service</p></a></li>
-                    <li><a href="#"><p>Pysical Education</p></a></li>
-                    <li><a href="#"><p>School Magazine</p></a></li>
+                    <li><a href="/" className="active"><p>Art &amp; Crafts</p></a></li>
+                    <li><a href="/"><p>Sports</p></a></li>
+                    <li><a href="/"><p>Science &amp; Tecnologies</p></a></li>
+                    <li><a href="/"><p>Social service</p></a></li>
+                    <li><a href="/"><p>Pysical Education</p></a></li>
+                    <li><a href="/"><p>School Magazine</p></a></li>
                   </ul>
                 </div>
                 <div className="sidebar-post sidebar-widget">
