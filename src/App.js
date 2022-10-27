@@ -26,19 +26,12 @@ import HowToRegister from './pages/Addmission/HowToRegister';
 import Scholarship from './pages/Addmission/Scholarship';
 import News from './pages/News';
 function App() {
-  // const [loading, setLoading] = useState(true);
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setLoading(false);
-  //   }, 2000);
-  // }, []);
   return (
     <div>
-       {/* {loading &&  <div class="preloader"></div> } */}
       <Router>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          {/* About */}
+          {/*- - - - - - - - - About - - - - - - - - -*/}
           <Route exact path="/addninistative-staff-and-faculty-member'} " element={<Administrative />} />
           <Route exact path="/history" element={<History />} />
           <Route exact path="/mission-vission-objectives" element={<MissionVision />} />
@@ -46,32 +39,28 @@ function App() {
           <Route exact path="/resource-and-facilities" element={<ResourcesFacilities />} />
           <Route exact path="/who-we-are" element={<WhoWeAre />} />
           <Route exact path="/about-welham" element={<AboutWelham />} />
-          <Route exact path="/origin-and-history" element={<OriginAndHistory/>} />
+          <Route exact path="/origin-and-history" element={<OriginAndHistory />} />
           {/* <Route exact path="/who-we-are" element={<AboutWelham />} /> */}
 
-          {/* Addmision  */}
+          {/*- - - - - - - - - Addmision  - - - - - - - - -*/}
           <Route exact path="/fee-structure" element={<FeeStructure />} />
           <Route exact path="/how-to-register" element={<HowToRegister />} />
           <Route exact path="/scholarship" element={<Scholarship />} />
 
-          {/* Academic  */}
+          {/*- - - - - - - - - Academic  - - - - - - - - -*/}
           <Route exact path="/academic-departments" element={<AcademicDepartments />} />
           <Route exact path="/academic-information" element={<AcademicInformation />} />
           <Route exact path="/admission-notices" element={<AdmissionNotices />} />
-          {/* News  */}
+          {/*- - - - - - - - - News  - - - - - - - - -*/}
           <Route exact path="/news" element={<News />} />
-          {/* Events  */}
+          {/*- - - - - - - - - Events  - - - - - - - - -*/}
           <Route exact path="/event-details" element={<EventDetails />} />
           <Route exact path="/events" element={<Events />} />
-          {/* Blog  */}
+          {/*- - - - - - - - - Blog  - - - - - - - - -*/}
           <Route exact path="/blog-details" element={<BlogDetails />} />
           <Route exact path="/our-blog" element={<OurBlog />} />
-          {/* Contact  */}
+          {/*- - - - - - - - - Contact  - - - - - - - - -*/}
           <Route exact path="/contact" element={<Contact />} />
-          {/* <Route exact path="/news" element={<Home />} />
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/" element={<Home />} /> */}
-
         </Routes>
       </Router>
     </div>

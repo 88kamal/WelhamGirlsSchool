@@ -1,43 +1,39 @@
+.image2 {
+  display: none;
+}
 
-.image2{
+@media only screen and (max-width: 500px) {
+  .image1 {
     display: none;
   }
-  
-  @media only screen and (max-width: 500px){ 
-    .image1{
-      display: none;
-    }
-  
-    .image2{
-      display: block;
-    } 
-     .addmission{
-   
+
+  .image2 {
+    display: block;
+  }
+
+  .addmission {
+
     position: relative;
     bottom: 12em;
 
   }
-  }
+}
 
 
-  @media only screen and (max-width: 523px){ 
-  
-     .addmission{
-   
+@media only screen and (max-width: 523px) {
+  .addmission {
     position: relative;
     /* bottom: 2em; */
 
   }
-  }
+}
 
 
-  @media only screen   
-and (min-device-width : 360px)   
-and (max-device-width : 640px) {
-  
-  .title-head{
-   
+@media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
+
+  .title-head {
+
     font-size: 23px !important;
   }
-  
+
 }
