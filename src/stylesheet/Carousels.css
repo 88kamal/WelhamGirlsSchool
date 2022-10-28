@@ -41,4 +41,20 @@
   } */
 }
 
+.none2 {
+  display: none;
+}
+.d-block {
+  display: block ;
+}
+@media only screen and (max-width: 500px) {
+  .none1 {
+    display: none;
+  }
+
+  .none2 {
+    display: block;
+  }
+}
+
 
