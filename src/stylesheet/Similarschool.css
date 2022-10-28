@@ -36,4 +36,22 @@
    bottom: 6em;
 
  }
+ /* .col-md-3{
+    width: 25%;
+ } */
  }
+
+
+ /* @media screen and (max-width: 999px) {
+    .col-md-3{
+        width: 50%;
+     }
+} */
+
+/* For 1024 Resolution */
+/* @media only screen and (min-device-width : 500px) and (max-device-width : 999px) {
+    .col-md-3{
+        width: 500%;
+     }
+
+} */

@@ -20,7 +20,8 @@ function HowToRegister() {
                             <h2 style={{ marginLeft: '10px', color: 'black', fontSize: '25px', fontWeight: 500, marginBottom: '10px' }}>How to register?</h2>
                             <p style={{
                                 textAlign: 'justify',
-                                textJustify: 'interWord'
+                                textJustify: 'interWord',
+                                margin:'15px'
                             }}>
                                 If you wish to register your child, kindly fill out the
                                 registration form and like ok.

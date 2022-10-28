@@ -1,19 +1,22 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../stylesheet/AddmissionPro.css'
 
 function AddmissionPro() {
      
     return (
-        <div className=" container addmission">
+        <div className=" container addmission addmission-pro1" style={{
+        marginTop: '-83px'
+    }}>
             <div className="center">
-                <div className="title-head">Admission <span>Procedure</span></div>
+                <div className="title-head" >Admission <span>Procedure</span></div>
             </div>
-            <div className="procedure-img ">
+            <div className="procedure-img addmission-pro ">
                 <img className="image1" src="/images/admission-procedure.jpeg" alt="" />
                 <img className="image2" src="/images/home/MobileAdmission.png" alt="" />
 
             </div>
-            <div className="button-alumni center"><a href="How-To-Register.html" className="btn-two">Read more</a></div>
+            <div className="button-alumni center"><Link to={"How-To-Register"} className="btn-two">Read more</Link></div>
         </div>
     )
 }

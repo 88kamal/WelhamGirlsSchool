@@ -20,7 +20,8 @@ function Scholarship() {
                             <h2 style={{ marginLeft: '10px', color: 'black', fontSize: '25px', fontWeight: 500, marginBottom: '10px' }}>SCHOLARSHIPS AT WELHAM GIRLS SCHOOL</h2>
                             <p style={{
                                 textAlign: 'justify',
-                                textJustify: 'interWord'
+                                textJustify: 'interWord',
+                                margin:'15px'
                             }}>
                                 Scholarships are an essential part of the educational experience. They allow students to pursue their academic goals and permit them to reach their potential.
                                 Scholarship selection at Welham Girls' School is fair and transparent. That helps to ensure only students who deserve the award receive it.
@@ -35,7 +36,11 @@ function Scholarship() {
                             <h2 style={{ marginLeft: '10px', color: 'black', fontSize: '25px', fontWeight: 500, marginBottom: '10px' }}>
                                 SELECTION PROCESS FOR SCHOLARSHIPS
                             </h2>
-                            <p>Transparency and inclusivity are vital because they help schools to become more diverse, inclusive environments for children to grow and learn together. That allows students from all backgrounds to make friends, develop empathy for others, and learn from each other's differences. It also makes it easier for teachers to teach lessons that require students to collaborate if they see through each other's eyes instead of just their perspective alone.
+                            <p style={{
+                                textAlign: 'justify',
+                                textJustify: 'interWord',
+                                margin:'15px'
+                            }}>Transparency and inclusivity are vital because they help schools to become more diverse, inclusive environments for children to grow and learn together. That allows students from all backgrounds to make friends, develop empathy for others, and learn from each other's differences. It also makes it easier for teachers to teach lessons that require students to collaborate if they see through each other's eyes instead of just their perspective alone.
                                 Welham Girls' School gives several scholarships each year to qualified pupils. Applications for scholarships are accepted by the parents, and recipients are chosen based on their financial needs and academic excellence. The scholarship amounts are determined after calculating the parents' combined income and are given out following a thorough review of all pertinent paperwork by the scholarship committee.
                                 Much of the school fees are covered through scholarships. Parents of prospective students can apply for scholarships as well. Scholarships change, and new applications must be submitted. Every year, parents of students who desire to apply for a scholarship must request the relevant paperwork from the school. Welham Girls' School believes in inclusivity and is here for you.
                                 The school understands that not everyone has the same opportunities, and they want to be there for less privileged people. They're working on making the school more accessible and affordable so that no one gets left behind.

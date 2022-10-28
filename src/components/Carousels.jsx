@@ -2,19 +2,23 @@ import React from 'react'
 import '../stylesheet/Carousels.css'
 
 function Carousels() {
+ 
   return (
     <div >
 
       <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel" >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="/images/slider/LP- 1.jpg" className="d-block " alt="..." width={1500} height={750} />
+            <img src="/images/slider/LP- 1.jpg" className=" image1 " alt="..." style={{ width: '96em', height: '50em' }} />
+            <img src="/images/slider/Mobile LP-1.jpg" className=" image2  w-100 " alt="..." />
           </div>
           <div className="carousel-item">
-            <img src="/images/slider/LP-2.jpg" className="d-block " alt="..." width={1500} height={750} />
+            <img src="/images/slider/LP-2.jpg" className=" image1 " alt="..." style={{ width: '96em', height: '50em' }} />
+            <img src="/images/slider/Mobile LP-2.jpg" className="image2 w-100  " alt="..." />
           </div>
           <div className="carousel-item">
-            <img src="/images/slider/LP-3.jpg" className="d-block " alt="..." width={1500} height={750} />
+            <img src="/images/slider/LP-3.jpg" className=" image1" alt="..." style={{ width: '96em', height: '50em' }} />
+            <img src="/images/slider/Mobile LP-3.jpg" className="image2 w-100 " alt="..." />
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -25,14 +29,17 @@ function Carousels() {
           <span className="carousel-control-next-icon" aria-hidden="true" ></span>
           <span className="visually-hidden" >Next</span>
         </button>
-      </div>
-
-      <div className="form-container container my-2">
-        <form id="contact" className="kwes-form" action="https://kwesforms.com/api/foreign/forms/KFxLSjT83EHVTcM9Whom" method="post">
+        <div className="form-container container my-2">
+        <form id="contact" className="kwes-form" action="https://formsubmit.co/Tarun.enquiry@gmail.com" method="POST">
           <h3 style={{ color: '#337ab7', fontWeight: 'bold', paddingTop: '10px', textTransform: 'uppercase', fontSize: '20px' }}> Get More Information About Admissions</h3>
           {/* <h4 style="font-weight: bold; text-transform: uppercase;">Contact us</h4> */}
           <fieldset>
             <input name="name" placeholder="Your name" type="text" tabIndex={1} required />
+            <input type="hidden" name="_captcha" value="false" />
+
+            <input type="hidden" name="_next" value="http://localhost:3000/thanks" />
+
+
           </fieldset>
           <fieldset>
             <input name="email" placeholder="Your Email Address" type="email" tabIndex={2} required />
@@ -47,10 +54,13 @@ function Carousels() {
             <textarea name="Message" placeholder="Type your message here...." tabIndex={5} required defaultValue={""} />
           </fieldset>
           <fieldset>
-            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            <button type="submit" id="contact-submit" data-submit="...Sending" onClick={alert}>Submit</button>
           </fieldset>
         </form>
       </div>
+      </div>
+
+    
     </div>
   )
 }

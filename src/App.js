@@ -25,6 +25,7 @@ import FeeStructure from './pages/Addmission/FeeStructure';
 import HowToRegister from './pages/Addmission/HowToRegister';
 import Scholarship from './pages/Addmission/Scholarship';
 import News from './pages/News';
+import Thanks from './components/Thanks';
 function App() {
   return (
     <div>
@@ -61,6 +62,8 @@ function App() {
           <Route exact path="/our-blog" element={<OurBlog />} />
           {/*- - - - - - - - - Contact  - - - - - - - - -*/}
           <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/thanks" element={<Thanks />} />
+
         </Routes>
       </Router>
     </div>

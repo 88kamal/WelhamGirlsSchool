@@ -17,6 +17,25 @@
     bottom: 12em;
 
   }
+  .addmission-pro{
+    padding: 12.5px;
+    margin-top: -59px;
+  }
+  .addmission-pro1{
+    margin-top: -10px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .image1 {
+    display: none;
+  }
+
+  .image2 {
+    display: block;
+  }
+
+  
 }
 
 

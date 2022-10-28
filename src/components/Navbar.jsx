@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { FiMenu } from 'react-icons/fi'
 import { BsWhatsapp } from 'react-icons/bs'
-import { MdCall } from 'react-icons/md'
+import { MdCall , MdEmail} from 'react-icons/md'
 import '../stylesheet/Navbar.css'
 import { Link } from 'react-router-dom'
 function Navbar() {
@@ -32,8 +32,10 @@ function Navbar() {
             <div className="container-fluid">
                 {
                     isVisible && <div className=' '>
-                    <a href="https://wa.me/919760532480"><BsWhatsapp size={25} style={{ color: 'rgb(51, 122, 183)' }} /></a>
+                    <a href="https://wa.me/+918279548935"><BsWhatsapp size={25} style={{ color: 'rgb(51, 122, 183)' }} /></a>
                     <a className=' mx-2' href="tel:+919760532480" ><MdCall size={25} style={{ color: 'rgb(51, 122, 183)' }} /></a>
+                    <a className=' mx-2' href="Tarun.enquiry@gmail.com" ><MdEmail size={30} style={{ color: 'rgb(51, 122, 183)' }} /></a>
+                    
                 </div>
                 }
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -20,6 +20,36 @@ and (max-device-width : 640px) {
   .button{
     padding: 12px;
   }
+  
+}
+
+@media only screen and (max-width: 500px) {
+  .image1 {
+    display: none;
+  }
+
+  .image2 {
+    display: block;
+  }
+  .about-para{
+    padding: 14.5px;
+    margin-top: -60px;
+  }
+
+
+  /* .addmission {
+
+    position: relative;
+    bottom: 12em;
+
+  } */
+  .about-margin{
+    margin-top: -38px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  
 }
 
 
@@ -55,7 +85,29 @@ and (max-device-width : 640px) {
 		padding: 0px 10px 8px 10px;
 	}
 }
-  
+
+
+
+
+
+/* hover zoominout  */
+.zoom {
+  width: 95%;
+  /* height: 300px; */
+  overflow: hidden;
+  /* margin: 0 auto; */
+}
+
+.zoom img {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+
+.zoom:hover img {
+  transform: scale(1.1);
+  background-color: red
+}
+
   
   
   
@@ -397,7 +449,7 @@ and (max-device-width : 640px) {
     background: url(/public/images/home/title-shap.png);
     width: 88px;
     height: 28px;
-    left: 50%;
+    left: 8%;
     bottom: -39px;
     margin-left: -25px;
     background-repeat: no-repeat;
@@ -425,17 +477,18 @@ and (max-device-width : 640px) {
     /* position: relative; */
     font-size: 30px;
     /* font-family: 'sans-serif' 'Roboto'; */
-    /* line-height: 37px; */
+    line-height: 37px;
     color: #848484;
     display: block;
+    font-weight: bolder;
   }
   .title-head span{
     color:  #337ab7;
   }
   .form-container{
     position: absolute;
-    width: 30%;
-    /* top: 50%; */
+    width: 29%;
+    /* top: 100%; */
     left: 36%;
     transform: translate(90%, -110%);
     /* background: rgba(255, 255, 255, 0.205); */
