@@ -35,6 +35,12 @@ and (max-device-width : 640px) {
     padding: 14.5px;
     margin-top: -60px;
   }
+  hr{
+    position: relative;
+    top: -29px;
+    padding: 12px;
+  }
+
 
 
   /* .addmission {

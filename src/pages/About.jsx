@@ -23,8 +23,10 @@ function About() {
                     <div class="lc-block mb-3">
                         <div className="about-title">
                             <div className="title-head">Know More About <span>Welham Girls School</span></div>
-                            <hr className=' text-center' />
-                            <div className="section-title "><h2 className=' '><small>Dedicated to Excellence</small></h2></div>
+                            <div className="container">
+                            {/* <hr className=' text-center  '  /> */}
+                            </div>
+                            {/* <div className="section-title "><h2 className=' '><small>Dedicated to Excellence</small></h2></div> */}
                         </div>
                     </div>
 
@@ -32,12 +34,15 @@ function About() {
 
                     <div class="lc-block mb-4">
                         <div editable="rich">
+                            {/* <br /> */}
+                            <br />
 
                             <p class="about-para" style={{
                                 textAlign: 'justify',
                                 textJustify: 'interWord',
-                            }}>Welham Girls' school is a leading institution of learning that has been imparting quality education to young girls since its inception in 1957. The foundation stone of Welham Girls school was laid by an English lady named H.S. Oliphant, who always had a burning desire to uplift Indian women through education. Despite having negligible resources, she was determined to bring the change she wanted to witness. She entrusted Miss Grace Mary Linnell, an experienced and respected educationist, to set up the school and run it efficiently. Under the guidance of Miss Linnell, the school developed high academic standards, which helped it grow remarkably.
-                                The prolonged legacy of Welham has helped it prove its mettle. There were many able educationists at the pinnacle leading the institution successfully, starting from Miss Linnell in 1957 to Vibha Kapoor the present headmistress. All the serving leaders have massively contributed to the institution.</p>
+                            }}>Welham Girls School Dehradun is a highly renowned English medium girls boarding school in Dehradun. It was founded in the year 1957 by Ms H.S Oliphant. The school is affiliated with the Indian Certificate of Secondary Education (ICSE) and is also a member of the Indian Public Schools Conference (IPSC). Welham Girls has consistently ranked among the top schools in India by various national and international magazines.
+                            The academic selection of Welham Girls School Dehradun is par excellence as it offers a rich learning experience to its students through different clubs and activities like debate, science exhibitions and quizzes, vital for all-round development.
+                            Welham Girls School also offers a foreign exchange program to its students. The purpose of the exchange is to improve their language skills and cultural understanding while continuing their studies at school which also helps them compete and win various accolades in competitions at the national and international levels</p>
 
                         </div>
                     </div>

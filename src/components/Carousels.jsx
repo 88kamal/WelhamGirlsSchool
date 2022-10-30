@@ -9,15 +9,15 @@ function Carousels() {
       <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel" >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="/images/slider/LP- 1.jpg" className=" image1 " alt="..." style={{ width: '96em', height: '50em' }} />
+            <img src="/images/slider/LP- 1.jpg" className=" image1 " alt="..." style={{ width: '1450px', height: '750px' }} />
             <img src="/images/slider/Mobile LP-1.jpg" className=" image2  w-100 " alt="..." />
           </div>
           <div className="carousel-item">
-            <img src="/images/slider/LP-2.jpg" className=" image1 " alt="..." style={{ width: '96em', height: '50em' }} />
+            <img src="/images/slider/LP-2.jpg" className=" image1 " alt="..." style={{ width: '1450px', height: '750px' }} />
             <img src="/images/slider/Mobile LP-2.jpg" className="image2 w-100  " alt="..." />
           </div>
           <div className="carousel-item">
-            <img src="/images/slider/LP-3.jpg" className=" image1" alt="..." style={{ width: '96em', height: '50em' }} />
+            <img src="/images/slider/LP-3.jpg" className=" image1" alt="..." style={{ width: '1450px', height: '750px' }} />
             <img src="/images/slider/Mobile LP-3.jpg" className="image2 w-100 " alt="..." />
           </div>
         </div>
