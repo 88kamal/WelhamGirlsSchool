@@ -44,7 +44,7 @@ function SimilarSchool() {
             <h2 className="copyright title-head" style={{ color: '#848484', marginTop: '20px' }}>Similar School   <span style={{ marginLeft: '8px', color: '#337ab7', marginBottom: '30px' }}>Options</span>
             </h2>
 
-            <div className="row m-2">
+            <div className="row  similar">
                 <div className="col-md-6 col-lg-3 my-3">
                     <div className="card" >
                         <img src="./images/home/Mayo.jpeg" className="card-img-top" alt="..." />
@@ -60,7 +60,7 @@ function SimilarSchool() {
                             <div className="center">
                                 <a href='/' style={{
                                     position: 'relative',
-                                    top: '4px'
+                                    top: '29px'
                                 }} className="btn-one  scroll-to-target" data-target=".form-container">  Apply Now</a>
                             </div>                        </div>
                     </div>
@@ -72,7 +72,10 @@ function SimilarSchool() {
                             height: '379px'
                         }}>
                             <h3 className="card-title fw-bold text-center">Ecole Globale International Girls’ School</h3>
-                            <p className="card-text" >Ecole Globale has an excellent academic record. It offers foreign exchange programs, earning them better opportunities. You still have 41% chance to get admission.</p>
+                            <p className="card-text" style={{
+                                textAlign: 'justify',
+                                textJustify: 'interWord',
+                            }} >Ecole Globale has an excellent academic record. It offers foreign exchange programs, earning them better opportunities. You still have 41% chance to get admission.</p>
                             <div className="center">
                                 <a href='/' className="btn-one  scroll-to-target" data-target=".form-container">  Apply Now</a>
                             </div>                        </div>
@@ -86,11 +89,14 @@ function SimilarSchool() {
 
                         }}>
                             <h3 className="card-title fw-bold text-center">Scindia Kanya Vidyalaya</h3>
-                            <p className="card-text">Scindia Kanya Vidyalaya is a premier girls' school, that helps children to grow both academically and personally. There is a 40% chance of your child, to study here.</p>
+                            <p className="card-text" style={{
+                                textAlign: 'justify',
+                                textJustify: 'interWord',
+                            }}>Scindia Kanya Vidyalaya is a premier girls' school, that helps children to grow both academically and personally. There is a 40% chance of your child, to study here.</p>
                             <div className="center">
                                 <a href='/' style={{
                                     position: 'relative',
-                                    top: '27px'
+                                    top: '53px'
                                 }} className="btn-one  scroll-to-target" data-target=".form-container">  Apply Now</a>
                             </div>
                         </div>

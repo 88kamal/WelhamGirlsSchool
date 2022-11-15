@@ -1,0 +1,11 @@
+<div className="hidden-mobile hidden-mobile2">
+        <section className="testimonial-section sec-pad centred">
+          <div className="container">
+            <div className="testimonial-title white">
+              <div className="section-title-testimonial">
+               
+              </div>
+            </div>
+           
+          </div>
+        </section></div>

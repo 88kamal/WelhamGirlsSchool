@@ -65,3 +65,11 @@
      }
 
 } */
+
+
+@media only screen and (min-width: 960px) {
+    .similar{
+      margin-top: 2.5em;
+    }
+  }
+    
