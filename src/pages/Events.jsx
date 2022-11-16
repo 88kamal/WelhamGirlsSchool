@@ -6,7 +6,7 @@ function Events() {
   return (
     <section className="image-gallery sec-pad">
     <div className="container addmission1">
-        <div className=' bg-light p-5'>
+        <div className=' bg-light p-4'>
                <div className="gallery-title centred">
             <div className="title-head"  style={{color:'#337ab7', marginBottom:"15px"}}>Events</div>
             <div className="section-title"><p>Welham Girls' School has a range of events and activities to support the girls in developing their interests, skills and talents. It is packed with fun and interesting challenges that help the girls to develop a sense of community through wonderful events held throughout the year.</p></div>  

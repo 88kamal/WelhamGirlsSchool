@@ -21,6 +21,7 @@
       max-width: 400px;
       width: 100%;
       margin: 0 auto;
+      top: 7% !important;
       position: relative;
       left: 0;
       transform: translate(0%, 0%) !important;

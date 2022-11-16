@@ -6,7 +6,7 @@ function AddmissionPro() {
      
     return (
         <div className=" container addmission addmission-pro1" style={{
-        marginTop: '-83px'
+        marginTop: '-50px'
     }}>
             <div className="center">
                 <div className="title-head" >Admission <span>Procedure</span></div>

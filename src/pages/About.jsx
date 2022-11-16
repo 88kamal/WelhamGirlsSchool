@@ -22,7 +22,7 @@ function About() {
                 <div class="col-md-6 col-xl-5">
                     <div class="lc-block mb-3">
                         <div className="about-title">
-                            <div className="title-head">Know More About <span>Welham Girls' School</span></div>
+                            <div className="title-head">Know More About <br /> <span>Welham Girls' School</span></div>
                             <div className="container">
                             {/* <hr className=' text-center  '  /> */}
                             </div>

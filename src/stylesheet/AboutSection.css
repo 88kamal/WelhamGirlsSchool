@@ -493,7 +493,7 @@ and (max-device-width : 640px) {
   .form-container{
     position: absolute;
     width: 29%;
-    /* top: 100%; */
+    top: 65%;
     left: 36%;
     transform: translate(90%, -110%);
     /* background: rgba(255, 255, 255, 0.205); */
