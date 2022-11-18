@@ -8,17 +8,13 @@ a:focus {
     box-shadow: none;
 }
 
-.accordion-button{
+.accordion-button {
     border: none !important;
 }
 
 
-@media only screen and (max-width: 523px){ 
-  
-    .faq{
-  
-        margin-top: -11em
-
-
- }
- }
+@media only screen and (max-width: 523px) {
+    .faq {
+        margin-top: -11em;
+    }
+}
