@@ -100,7 +100,7 @@ function SimilarSchool() {
                 </div>
                 <div className="col-md-6 col-lg-3 my-3">
                     <div className="car" >
-                    <div className="card-body padd "  >
+                    <div className="card-body padd  "  >
                                    
                                    <form style={{background:'none'}} id="contact" className="kwes-form shadow-none padd" action="https://kwesforms.com/api/foreign/forms/KFxLSjT83EHVTcM9Whom" method="post" noValidate="novalidate"><div className="kw-alert kw-alert-error">
                                    </div>
