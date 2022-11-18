@@ -62,7 +62,7 @@ function SimilarSchool() {
                                     position: 'relative',
                                     top: '29px'
                                 }} className="btn-one  scroll-to-target" data-target=".form-container">  Apply Now</a> */}
-                                 <button className="btn-one" style={{ marginBottom: '28px', marginTop: '32px',  }} name="submit" type="submit" id="contact-submit" data-submit="...Sending">APPLY NOW</button>
+                                 <button className="btn-one btn_1"name="submit" type="submit" id="contact-submit" data-submit="...Sending">APPLY NOW</button>
                             </div>                        </div>
                     </div>
                 </div>
@@ -79,7 +79,7 @@ function SimilarSchool() {
                             }} >Ecole Globale has an excellent academic record. It offers foreign exchange programs, earning them better opportunities. You still have 41% chance to get admission.</p>
                             <div className="center">
                                 {/* <a href='/' className="btn-one  scroll-to-target" data-target=".form-container">  Apply Now</a> */}
-                                <button className="btn-one" style={{ marginBottom: '28px', marginTop: 'px' }} name="submit" type="submit" id="contact-submit" data-submit="...Sending">APPLY NOW</button>
+                                <button className="btn-one" name="submit" type="submit" id="contact-submit" data-submit="...Sending">APPLY NOW</button>
                             </div>                        </div>
                     </div>
                 </div>
@@ -100,16 +100,16 @@ function SimilarSchool() {
                                     position: 'relative',
                                     top: '53px'
                                 }} className="btn-one  scroll-to-target" data-target=".form-container">  Apply Now</a> */}
-                                 <button className="btn-one" style={{ marginBottom: '28px', marginTop: '53px' }} name="submit" type="submit" id="contact-submit" data-submit="...Sending">APPLY NOW</button>
+                                 <button className="btn-one btn_2" name="submit" type="submit" id="contact-submit" data-submit="...Sending">APPLY NOW</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-6 col-lg-3 my-3">
                     <div className="car" >
-                    <div className="card-body "  >
+                    <div className="card-body padd "  >
                                    
-                                   <form style={{ borderRadius: '10px', height: '550px !important', width: '280px !important', paddingTop: '218px', background: 'none' }} id="contact" className="kwes-form shadow-none" action="https://kwesforms.com/api/foreign/forms/KFxLSjT83EHVTcM9Whom" method="post" noValidate="novalidate"><div className="kw-alert kw-alert-error">
+                                   <form  id="contact" className="kwes-form shadow-none padd" action="https://kwesforms.com/api/foreign/forms/KFxLSjT83EHVTcM9Whom" method="post" noValidate="novalidate"><div className="kw-alert kw-alert-error">
                                    </div>
                                        <div className="kw-alert kw-alert-success" id="kw-success" aria-live="assertive" style={{ display: 'none' }} />
                                        <h3 style={{ color: '#337ab7', fontWeight: 'bold', paddingTop: '10px', textTransform: 'uppercase', fontSize: '20px' }}>
