@@ -46,9 +46,18 @@
    bottom: 6em;
 
  }
- /* .col-md-3{
-    width: 25%;
- } */
+ .card{
+    padding: 15px;
+ }
+ .car{
+    padding: 15px;
+ }
+ .card_h{
+    height: 330px; }
+    .padd {
+        padding-top: 11em !important;
+    }
+ 
  }
 
 

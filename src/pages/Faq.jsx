@@ -9,7 +9,7 @@ function Faq() {
                     <h3 className=' text-center'>FAQ's?</h3>
                 </div>
                 <div className="accordion" id="accordionExample">
-                    <div className="accordion-item my-2">
+                    <div className="accordion-item my-1">
                         <h2 className="accordion-header" id="headingOne">
                             <button style={{
                                 padding: '1px 17px 3px 11px', background: '#f5f5f5'
@@ -25,7 +25,7 @@ function Faq() {
                             </div>
                         </div>
                     </div>
-                    <div className="accordion-item my-2">
+                    <div className="accordion-item my-1">
                         <h2 className="accordion-header" id="headingTwo">
                             <button style={{
                                 padding: '1px 17px 3px 11px', background: '#f5f5f5'
@@ -47,7 +47,7 @@ function Faq() {
                             </div>
                         </div>
                     </div>
-                    <div className="accordion-item my-2">
+                    <div className="accordion-item my-1">
                         <h2 className="accordion-header" id="headingThree">
                             <button style={{
                                 padding: '1px 17px 3px 11px', background: '#f5f5f5'
@@ -76,7 +76,7 @@ function Faq() {
                             </div>
                         </div>
                     </div>
-                    <div className="accordion-item my-2">
+                    <div className="accordion-item my-1">
                         <h2 className="accordion-header" id="headingFour">
                             <button style={{
                                 padding: '1px 17px 3px 11px', background: '#f5f5f5'
@@ -96,7 +96,7 @@ function Faq() {
                             </div>
                         </div>
                     </div>
-                    <div className="accordion-item my-2">
+                    <div className="accordion-item my-1">
                         <h2 className="accordion-header" id="headingFive">
                             <button style={{
                                 padding: '1px 17px 3px 11px', background: '#f5f5f5'

@@ -48,9 +48,7 @@ function SimilarSchool() {
                 <div className="col-md-6 col-lg-3 my-3">
                     <div className="card" >
                         <img src="./images/home/Mayo.jpeg" className="card-img-top" alt="..." />
-                        <div className="card-body" style={{
-                            height: '379px'
-                        }}>
+                        <div className="card-body card_h" >
                             <h3 className="card-title  text-center" style={{ fontWeight: '500' }}>Mayo College Girls’ School</h3>
                             <p className="card-text" style={{
                                 textAlign: 'justify',
@@ -69,9 +67,7 @@ function SimilarSchool() {
                 <div className="col-md-6 col-lg-3 my-3">
                     <div className="card" >
                         <img src="./images/home/Ecole.jpeg" className="card-img-top" alt="..." />
-                        <div className="card-body" style={{
-                            height: '379px'
-                        }}>
+                        <div className="card-body card_h" >
                             <h3 className="card-title  text-center" style={{ fontWeight: '500' }}>Ecole Globale International Girls’ School</h3>
                             <p className="card-text" style={{
                                 textAlign: 'justify',
@@ -86,10 +82,7 @@ function SimilarSchool() {
                 <div className="col-md-6 col-lg-3 my-3">
                     <div className="card " style={{ border: 'none !important' }} >
                         <img src="./images/home/scindia.jpeg " className="card-img-top" alt="..." />
-                        <div className="card-body" style={{
-                            height: '379px',
-
-                        }}>
+                        <div className="card-body card_h" >
                             <h3 className="card-title  text-center" style={{ fontWeight: '500' }}>Scindia Kanya Vidyalaya</h3>
                             <p className="card-text" style={{
                                 textAlign: 'justify',
