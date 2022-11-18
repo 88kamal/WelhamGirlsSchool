@@ -14,7 +14,24 @@
     .addmission1{
   
    position: relative;
-   bottom: 11em;
+   bottom: 9em;
 
  }
  }
+
+
+ .addmission1{
+  
+  position: relative;
+  top: -2em;
+ }
+ /* .margin{
+  margin-top: -27px !important;
+} */
+
+ /* @media (min-width: 400px) {
+.margin{
+  margin-top: 27px !important;
+}
+
+} */

@@ -109,7 +109,7 @@ function SimilarSchool() {
                     <div className="car" >
                     <div className="card-body padd "  >
                                    
-                                   <form  id="contact" className="kwes-form shadow-none padd" action="https://kwesforms.com/api/foreign/forms/KFxLSjT83EHVTcM9Whom" method="post" noValidate="novalidate"><div className="kw-alert kw-alert-error">
+                                   <form style={{background:'none'}} id="contact" className="kwes-form shadow-none padd" action="https://kwesforms.com/api/foreign/forms/KFxLSjT83EHVTcM9Whom" method="post" noValidate="novalidate"><div className="kw-alert kw-alert-error">
                                    </div>
                                        <div className="kw-alert kw-alert-success" id="kw-success" aria-live="assertive" style={{ display: 'none' }} />
                                        <h3 style={{ color: '#337ab7', fontWeight: 'bold', paddingTop: '10px', textTransform: 'uppercase', fontSize: '20px' }}>
