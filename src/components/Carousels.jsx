@@ -7,8 +7,6 @@ function Carousels() {
     kwesforms.init();
 
   }, [])
-  
-
   return (
     <div >
 

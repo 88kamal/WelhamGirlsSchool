@@ -78,10 +78,10 @@ function Testimonials() {
                         {/* <div className="section-title-testimonial"> */}
                         <div>
                             <AliceCarousel className="" mouseTracking items={items}
-                                // autoPlay
-                                // infinite
-                                // autoPlayInterval="4000"
-                                // autoPlayStrategy="none"
+                                autoPlay
+                                infinite
+                                autoPlayInterval="4000"
+                                autoPlayStrategy="none"
                                 disableButtonsControls />
 
                         </div>
