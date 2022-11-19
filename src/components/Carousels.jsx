@@ -1,7 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../stylesheet/Carousels.css'
+import kwesforms from 'kwesforms';
 
 function Carousels() {
+
+  useEffect(() => {
+    kwesforms.init();
+
+  }, []);
 
   return (
     <div >
