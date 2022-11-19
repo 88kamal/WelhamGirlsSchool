@@ -12,8 +12,8 @@ function AddmissionPro() {
                 <div className="title-head" >Admission <span>Procedure</span></div>
             </div>
             <div className="procedure-img addmission-pro ">
-                <img className="image1" src="/images/admission-procedure.jpeg" alt="" />
-                <img className="image2" src="/images/home/MobileAdmission.png" alt="" />
+                <img className="image1" src="/images/admission-procedure.jpeg" alt="image1" />
+                <img className="image2" src="/images/home/MobileAdmission.png" alt="image2" />
 
             </div>
             <div className="button-alumni center"><Link to={"How-To-Register"} className="btn-two">Read more</Link></div>

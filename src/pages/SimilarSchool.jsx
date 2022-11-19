@@ -46,7 +46,7 @@ function SimilarSchool() {
 
             <div className="row  similar">
                 <div className="col-md-6 col-lg-3 my-3">
-                    <div className="card" >
+                    <div className="card border-bottom-2" >
                         <img src="./images/home/Mayo.jpeg" className="card-img-top" alt="..." />
                         <div className="card-body card_h" >
                             <h3 className="card-title  text-center" style={{ fontWeight: '500' }}>Mayo College Girls’ School</h3>
@@ -107,7 +107,7 @@ function SimilarSchool() {
                                        <div className="kw-alert kw-alert-success" id="kw-success" aria-live="assertive" style={{ display: 'none' }} />
                                        <h3 style={{ color: '#337ab7', fontWeight: 'bold', paddingTop: '10px', textTransform: 'uppercase', fontSize: '20px' }}>
                                            Apply For Admissions</h3>
-                                       <input style={{ marginTop: '5px' }} name="name" placeholder="Your name" type="text" tabIndex={1} required autofocus className="kw-border-error" />
+                                       <input style={{ marginTop: '5px' }} name="name" placeholder="Your name" type="text" tabIndex={1} required autoFocus className="kw-border-error" />
                                        <input style={{ marginTop: '5px' }} name="email" placeholder="Your Email Address" type="email" tabIndex={2} required />
                                        <input style={{ marginTop: '5px' }} name="PhoneNO" placeholder="Your Phone Number" type="tel" tabIndex={3} required />
                                        <button className="btn-one" style={{ marginBottom: '28px', marginTop: '20px' }} name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
@@ -180,7 +180,7 @@ function SimilarSchool() {
                                         <div className="kw-alert kw-alert-success" id="kw-success" aria-live="assertive" style={{ display: 'none' }} />
                                         <h3 style={{ color: '#337ab7', fontWeight: 'bold', paddingTop: '10px', textTransform: 'uppercase', fontSize: '20px' }}>
                                             Apply For Admissions</h3>
-                                        <input style={{ marginTop: '5px' }} name="name" placeholder="Your name" type="text" tabIndex={1} required autofocus className="kw-border-error" />
+                                        <input style={{ marginTop: '5px' }} name="name" placeholder="Your name" type="text" tabIndex={1} required autoFocus className="kw-border-error" />
                                         <input style={{ marginTop: '5px' }} name="email" placeholder="Your Email Address" type="email" tabIndex={2} required />
                                         <input style={{ marginTop: '5px' }} name="PhoneNO" placeholder="Your Phone Number" type="tel" tabIndex={3} required />
                                         <button className="btn-one" style={{ marginBottom: '28px', marginTop: '20px' }} name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>

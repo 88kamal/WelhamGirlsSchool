@@ -13,7 +13,7 @@ function FeeStructure() {
             <div>
               {/* <h2 style="color: #337ab7;  margin-bottom: 40px;">About Welham</h2> */}
             </div>
-            <img src="https://cdn.discordapp.com/attachments/1031605156996972574/1031896709669851176/fee_structure.jpg" alt="" />
+            <img src="https://cdn.discordapp.com/attachments/1031605156996972574/1031896709669851176/fee_structure.jpg" alt="img" />
           </div>
           <div className="row">
             <div className="page-content">

@@ -10,12 +10,12 @@ function BlogDetails() {
   }, [])
   return (
     <Layout>
-      <section class="page-title">
-        <div class="container">
-            <div class="content-box">
-                <div class="title">Blog Details</div>
-                <div class="bread-crumb">
-                    <Link to={'/'}>Home &nbsp;<i class="fa fa-angle-right"></i></Link> &nbsp;<span>Blog Details</span> 
+      <section className="page-title">
+        <div className="container">
+            <div className="content-box">
+                <div className="title">Blog Details</div>
+                <div className="bread-crumb">
+                    <Link to={'/'}>Home &nbsp;<i className="fa fa-angle-right"></i></Link> &nbsp;<span>Blog Details</span> 
                 </div>
             </div>
         </div>

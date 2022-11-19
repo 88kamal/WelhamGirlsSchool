@@ -6106,6 +6106,11 @@
   "resolved" "https://registry.npmjs.org/klona/-/klona-2.0.5.tgz"
   "version" "2.0.5"
 
+"kwesforms@^2.1.27":
+  "integrity" "sha512-DBePBSWWivBub3cI2y0Dvbr9c5Jh/1U8/DmKnmi/FP1zmw2FzsO1/ZE13V7lLa6ep87Cv4BLpCalipCSZN6IrQ=="
+  "resolved" "https://registry.npmjs.org/kwesforms/-/kwesforms-2.1.27.tgz"
+  "version" "2.1.27"
+
 "language-subtag-registry@~0.3.2":
   "integrity" "sha512-tN0MCzyWnoz/4nHS6uxdlFWoUZT7ABptwKPQ52Ea7URk6vll88bWBVhodtnlfEuCcKWNGoc+uGbw1cwa9IKh/w=="
   "resolved" "https://registry.npmjs.org/language-subtag-registry/-/language-subtag-registry-0.3.22.tgz"
