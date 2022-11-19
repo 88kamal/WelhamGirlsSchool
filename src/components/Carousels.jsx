@@ -3,11 +3,11 @@ import '../stylesheet/Carousels.css'
 import kwesforms from 'kwesforms';
 
 function Carousels() {
-
   useEffect(() => {
     kwesforms.init();
 
-  }, []);
+  }, [])
+  
 
   return (
     <div >
@@ -67,7 +67,7 @@ function Carousels() {
         </div> */}
 
 <div className="form-container my-2">
-        <form id="contact" className="kwes-form" action="https://kwesforms.com/api/foreign/forms/KZGWmtsjL2pW7Gn3kv9A" method="post" noValidate="novalidate">
+        <form id="contact" className="kwes-form" action="https://kwesforms.com/api/foreign/forms/KFxLSjT83EHVTcM9Whom" method="post" noValidate="novalidate">
           <div className="kw-alert kw-alert-success" id="kw-success" aria-live="assertive" style={{display: 'none'}} />
           <h3 style={{color: '#337ab7', fontWeight: 'bold', paddingTop: '10px', textTransform: 'uppercase', fontSize: '20px'}}>
             Apply For Admissions</h3>

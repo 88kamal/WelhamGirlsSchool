@@ -120,7 +120,7 @@
 
 .testimonial-para {
   position: relative;
-  font-size: 22px;
+  font-size: 19px;
   font-family: 'Lato', sans-serif;
   line-height: 26px;
   font-weight: 400;
@@ -128,4 +128,20 @@
   margin-bottom: 10px;
   transition: all 500ms ease;
   top: 10px;
+}
+
+/* 
+@media only screen and (min-width: 960px) {
+  .item{
+    margin-left: 12em;
+    width: 66em;
+
+  }
+} */
+@media only screen and (min-width: 1370px) and (max-width: 1605px) {
+ 
+ .item{
+  margin-left: 12em;
+  width: 66em;
+}
 }

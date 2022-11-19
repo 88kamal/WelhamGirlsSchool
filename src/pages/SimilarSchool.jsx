@@ -47,11 +47,11 @@ function SimilarSchool() {
             <div className="row  similar">
                 <div className="col-md-6 col-lg-3 my-3">
                     <div className="card border-bottom-2"  >
-                        <img src="./images/home/Mayo.jpeg" className="card-img-top" alt="..."  style={{
-    borderTopRightRadius: '12px',
-    borderTopLeftRadius: '12px',
-    }}/>
-                        <div className="card-body card_h" style={{borderRadius: '12px'}}>
+                        <img src="./images/home/Mayo.jpeg" className="card-img-top" alt="..." style={{
+                            borderTopRightRadius: '12px',
+                            borderTopLeftRadius: '12px',
+                        }} />
+                        <div className="card-body card_h" style={{ borderRadius: '12px' }}>
                             <h3 className="card-title  text-center" style={{ fontWeight: '500' }}>Mayo College Girls’ School</h3>
                             <p className="card-text" style={{
                                 textAlign: 'justify',
@@ -63,22 +63,23 @@ function SimilarSchool() {
                                     position: 'relative',
                                     top: '29px'
                                 }} className="btn-one  scroll-to-target" data-target=".form-container">  Apply Now</a> */}
-                                 <button className="btn-one btn_1"name="submit" type="submit" id="contact-submit" data-submit="...Sending">APPLY NOW</button>
+                                <button className="btn-one btn_1" name="submit" type="submit" id="contact-submit" data-submit="...Sending">APPLY NOW</button>
                             </div>                        </div>
                     </div>
                 </div>
                 <div className="col-md-6 col-lg-3 my-3">
                     <div className="card" >
-                        <img src="./images/home/Ecole.jpeg" className="card-img-top" alt="..."  style={{
-    borderTopRightRadius: '12px',
-    borderTopLeftRadius: '12px',
-    }} />
-                        <div className="card-body card_h" style={{borderRadius: '12px'}} >
+                        <img src="./images/home/Ecole.jpeg" className="card-img-top" alt="..." style={{
+                            borderTopRightRadius: '12px',
+                            borderTopLeftRadius: '12px',
+                        }} />
+                        <div className="card-body card_h" style={{ borderRadius: '12px' }} >
                             <h3 className="card-title  text-center" style={{ fontWeight: '500' }}>Ecole Globale International Girls’ School</h3>
-                            <p className="card-text" style={{
+                            <p className="card-text " style={{
                                 textAlign: 'justify',
                                 textJustify: 'interWord',
-                            }} >Ecole Globale has an excellent academic record. It offers foreign exchange programs, earning them better opportunities. You still have 41% chance to get admission.</p>
+                                letterSpacing: 'px'
+                            }}  >Ecole Globale has an excellent academic record. It offers foreign exchange programs, earning them better opportunities.You still have 41% chance to get admission.</p>
                             <div className="center">
                                 {/* <a href='/' className="btn-one  scroll-to-target" data-target=".form-container">  Apply Now</a> */}
                                 <button className="btn-one" name="submit" type="submit" id="contact-submit" data-submit="...Sending">APPLY NOW</button>
@@ -87,11 +88,11 @@ function SimilarSchool() {
                 </div>
                 <div className="col-md-6 col-lg-3 my-3">
                     <div className="card " style={{ border: 'none !important' }} >
-                        <img src="./images/home/scindia.jpeg " className="card-img-top" alt="..."  style={{
-    borderTopRightRadius: '12px',
-    borderTopLeftRadius: '12px',
-    }}/>
-                        <div className="card-body card_h" style={{borderRadius: '12px'}} >
+                        <img src="./images/home/scindia.jpeg " className="card-img-top" alt="..." style={{
+                            borderTopRightRadius: '12px',
+                            borderTopLeftRadius: '12px',
+                        }} />
+                        <div className="card-body card_h" style={{ borderRadius: '12px' }} >
                             <h3 className="card-title  text-center" style={{ fontWeight: '500' }}>Scindia Kanya Vidyalaya</h3>
                             <p className="card-text" style={{
                                 textAlign: 'justify',
@@ -102,27 +103,27 @@ function SimilarSchool() {
                                     position: 'relative',
                                     top: '53px'
                                 }} className="btn-one  scroll-to-target" data-target=".form-container">  Apply Now</a> */}
-                                 <button className="btn-one btn_2" name="submit" type="submit" id="contact-submit" data-submit="...Sending">APPLY NOW</button>
+                                <button className="btn-one btn_2" name="submit" type="submit" id="contact-submit" data-submit="...Sending">APPLY NOW</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-6 col-lg-3 my-3">
                     <div className="car" >
-                    <div className="card-body padd  "  style={{borderRadius: '12px'}} >
-                                   
-                                   <form style={{background:'none'}} id="contact" className=" shadow-none padd" method="post" noValidate="novalidate">
-                                    {/* <div className="kw-alert kw-alert-error">
+                        <div className="card-body padd  " style={{ borderRadius: '12px' }} >
+
+                            <form style={{ background: 'none' }} id="contact" className=" shadow-none padd" method="post" noValidate="novalidate">
+                                {/* <div className="kw-alert kw-alert-error">
                                    </div> */}
-                                       <div className="kw-alert kw-alert-success" id="kw-success" aria-live="assertive" style={{ display: 'none' }} />
-                                       <h3 style={{ color: '#337ab7', fontWeight: 'bold', paddingTop: '10px', textTransform: 'uppercase', fontSize: '20px' }}>
-                                           Apply For Admissions</h3>
-                                       <input style={{ marginTop: '5px' }} name="name" placeholder="Your name" type="text" tabIndex={1} required autoFocus className="kw-border-error" />
-                                       <input style={{ marginTop: '5px' }} name="email" placeholder="Your Email Address" type="email" tabIndex={2} required />
-                                       <input style={{ marginTop: '5px' }} name="PhoneNO" placeholder="Your Phone Number" type="tel" tabIndex={3} required />
-                                       <button className="btn-one" style={{ marginBottom: '28px', marginTop: '20px' }} name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-                                   </form>
-                               </div>
+                                <div className="kw-alert kw-alert-success" id="kw-success" aria-live="assertive" style={{ display: 'none' }} />
+                                <h3 style={{ color: '#337ab7', fontWeight: 'bold', paddingTop: '10px', textTransform: 'uppercase', fontSize: '20px' }}>
+                                    Apply For Admissions</h3>
+                                <input style={{ marginTop: '5px' }} name="name" placeholder="Your name" type="text" tabIndex={1} required autoFocus className="kw-border-error" />
+                                <input style={{ marginTop: '5px' }} name="email" placeholder="Your Email Address" type="email" tabIndex={2} required />
+                                <input style={{ marginTop: '5px' }} name="PhoneNO" placeholder="Your Phone Number" type="tel" tabIndex={3} required />
+                                <button className="btn-one" style={{ marginBottom: '28px', marginTop: '20px' }} name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
