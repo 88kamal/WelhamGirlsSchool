@@ -46,9 +46,12 @@ function SimilarSchool() {
 
             <div className="row  similar">
                 <div className="col-md-6 col-lg-3 my-3">
-                    <div className="card border-bottom-2" >
-                        <img src="./images/home/Mayo.jpeg" className="card-img-top" alt="..." />
-                        <div className="card-body card_h" >
+                    <div className="card border-bottom-2"  >
+                        <img src="./images/home/Mayo.jpeg" className="card-img-top" alt="..."  style={{
+    borderTopRightRadius: '12px',
+    borderTopLeftRadius: '12px',
+    }}/>
+                        <div className="card-body card_h" style={{borderRadius: '12px'}}>
                             <h3 className="card-title  text-center" style={{ fontWeight: '500' }}>Mayo College Girls’ School</h3>
                             <p className="card-text" style={{
                                 textAlign: 'justify',
@@ -66,8 +69,11 @@ function SimilarSchool() {
                 </div>
                 <div className="col-md-6 col-lg-3 my-3">
                     <div className="card" >
-                        <img src="./images/home/Ecole.jpeg" className="card-img-top" alt="..." />
-                        <div className="card-body card_h" >
+                        <img src="./images/home/Ecole.jpeg" className="card-img-top" alt="..."  style={{
+    borderTopRightRadius: '12px',
+    borderTopLeftRadius: '12px',
+    }} />
+                        <div className="card-body card_h" style={{borderRadius: '12px'}} >
                             <h3 className="card-title  text-center" style={{ fontWeight: '500' }}>Ecole Globale International Girls’ School</h3>
                             <p className="card-text" style={{
                                 textAlign: 'justify',
@@ -81,8 +87,11 @@ function SimilarSchool() {
                 </div>
                 <div className="col-md-6 col-lg-3 my-3">
                     <div className="card " style={{ border: 'none !important' }} >
-                        <img src="./images/home/scindia.jpeg " className="card-img-top" alt="..." />
-                        <div className="card-body card_h" >
+                        <img src="./images/home/scindia.jpeg " className="card-img-top" alt="..."  style={{
+    borderTopRightRadius: '12px',
+    borderTopLeftRadius: '12px',
+    }}/>
+                        <div className="card-body card_h" style={{borderRadius: '12px'}} >
                             <h3 className="card-title  text-center" style={{ fontWeight: '500' }}>Scindia Kanya Vidyalaya</h3>
                             <p className="card-text" style={{
                                 textAlign: 'justify',
@@ -100,7 +109,7 @@ function SimilarSchool() {
                 </div>
                 <div className="col-md-6 col-lg-3 my-3">
                     <div className="car" >
-                    <div className="card-body padd  "  >
+                    <div className="card-body padd  "  style={{borderRadius: '12px'}} >
                                    
                                    <form style={{background:'none'}} id="contact" className=" shadow-none padd" method="post" noValidate="novalidate">
                                     {/* <div className="kw-alert kw-alert-error">
