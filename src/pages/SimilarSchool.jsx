@@ -123,7 +123,6 @@ function SimilarSchool() {
                                        <button className="btn-one" style={{ marginBottom: '28px', marginTop: '20px' }} name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
                                    </form>
                                </div>
-
                     </div>
                 </div>
             </div>
