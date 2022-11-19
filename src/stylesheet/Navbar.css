@@ -178,3 +178,7 @@ and (max-device-width : 640px) {
 .nav-link:hover  {
         color: #337ab7 !important;
     }
+
+    .fw{
+        font-weight: 400 !important;
+    }
